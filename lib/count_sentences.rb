@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    "This is a sentence.".end_with?("!")
+    "This is a sentence.".end_with?(".")
   end
 
   def question?
